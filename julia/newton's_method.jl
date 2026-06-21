@@ -6,7 +6,7 @@ end
 
 function Newton(f, x, n)    #ニュートン法
     h = 1.0e-10
-    ϵ = 1.0e-12
+    ϵ = 1.0e-11
     sq = [x]
     println("Step 0: $x")
     for i = 1:n
